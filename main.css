@@ -1,0 +1,97 @@
+@media all and (min-width:500px) and (max-width:800px) {
+    h1 {
+        font-family: Georgia, serif;
+    }
+    p {
+        font-family: Calibri, sans-serif;
+    }
+    .weather-forecast {
+        color: blue;
+    }
+    table {
+        border: 2px solid black;
+        height: 500px;
+        width: 500px;
+    }
+    tr:nth-child(odd) {
+        background-color: darkgrey;
+    }
+    tr:nth-child(even) {
+        background-color: floralwhite;
+    }
+    td {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+    }
+    .clear-day {
+        background: url("https://cdn2.iconfinder.com/data/icons/wthr/32/sunny-512.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .partly-cloudy-day {
+        background: url("http://megaicons.net/static/img/icons_sizes/8/178/512/weather-partly-cloudy-day-icon.png") no-repeat center center;
+        background-size: contain;
+    }
+    .clear-night {
+        background: url("https://cdn2.iconfinder.com/data/icons/wthr/32/moon-512.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .partly-cloudy-night {
+        background: url("http://icons.iconarchive.com/icons/icons8/android/512/Weather-Partly-Cloudy-Night-icon.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .wind {
+        background: url("https://cdn3.iconfinder.com/data/icons/weather-25/512/Wind-512x512.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .rain {
+        background: url("http://www.iconarchive.com/download/i89288/icons8/ios7/Weather-Rain.ico") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .fog {
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1LT01xWJD6NLy3YrkzeAJRev5hNvBG2NZsOX6Q-XHC2hRWk-m") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .snow {
+        background: url("http://icons.iconarchive.com/icons/icons8/windows-8/512/Weather-Snow-icon.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .sleet {
+        background: url("http://www.veryicon.com/icon/ico/System/Icons8%20Metro%20Style/Weather%20Sleet.ico") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .hail {
+        background: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/hail.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .thunderstorm {
+        background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQagOGm8j8kDG9sEtgf4-1x0k7ZE3QI-_lPN15193cpAt2RCMHPZoaQwh4") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+    .tornado {
+        background: url("https://cdn3.iconfinder.com/data/icons/weather-icons-1/64/Tornado-512.png") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        heigth: 20px;
+    }
+}
